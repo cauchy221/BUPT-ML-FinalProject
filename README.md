@@ -2,21 +2,22 @@
 [twitter-sentiment-analysis-self-driving-cars](https://www.kaggle.com/competitions/twitter-sentiment-analysis-self-driving-cars)
 
 ## Project Structure
-```BUPT-ML-FinalProject \
-├─&nbsp;README.md \
-├─&nbsp;requirements.txt \
-├─&nbsp;data \
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ finetune \
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─&nbsp;preprocessed \
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─&nbsp;test.csv \
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─&nbsp;train.csv \
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─&nbsp;release \
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─&nbsp;sample.csv \
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─&nbsp;test.csv \
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─&nbsp;train.csv \
-├─&nbsp;data_preprocess.ipynb \
-├─&nbsp;finetune.py \
-└─&nbsp;finetune.sh
+```
+BUPT-ML-FinalProject
+├─ README.md
+├─ requirements.txt
+├─ data
+│     ├─ finetune
+│     ├─ preprocessed
+│     │     ├─ test.csv
+│     │     └─ train.csv
+│     └─ release
+│          ├─ sample.csv
+│          ├─ test.csv
+│          └─ train.csv
+├─ data_preprocess.ipynb
+├─ finetune.py
+└─ finetune.sh
 ```
 
 ## Usage
