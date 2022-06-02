@@ -2,7 +2,7 @@
 [twitter-sentiment-analysis-self-driving-cars](https://www.kaggle.com/competitions/twitter-sentiment-analysis-self-driving-cars)
 
 ## Project Structure
-BUPT-ML-FinalProject \
+```BUPT-ML-FinalProject \
 ├─&nbsp;README.md \
 ├─&nbsp;requirements.txt \
 ├─&nbsp;data \
@@ -17,6 +17,7 @@ BUPT-ML-FinalProject \
 ├─&nbsp;data_preprocess.ipynb \
 ├─&nbsp;finetune.py \
 └─&nbsp;finetune.sh
+```
 
 ## Usage
 1. 在 Kaggle 中注册账号，在 Account 中找到 API，并点击 `Create New API Token`
