@@ -6,14 +6,14 @@ BUPT-ML-FinalProject \
 ├─&nbsp;README.md \
 ├─&nbsp;requirements.txt \
 ├─&nbsp;data \
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ finetune \
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─&nbsp;preprocessed \
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─&nbsp;test.csv \
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─&nbsp;train.csv \
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─&nbsp;release \
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─&nbsp;sample.csv \
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─&nbsp;test.csv \
-│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─&nbsp;train.csv \
+ │&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─ finetune \
+ │&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─&nbsp;preprocessed \
+ │&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; │&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─&nbsp;test.csv \
+ │&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; │&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─&nbsp;train.csv \
+ │&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─&nbsp;release \
+ │&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─&nbsp;sample.csv \
+ │&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├─&nbsp;test.csv \
+ │&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└─&nbsp;train.csv \
 ├─&nbsp;data_preprocess.ipynb \
 ├─&nbsp;finetune.py
 └─&nbsp;finetune.sh
