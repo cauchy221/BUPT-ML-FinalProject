@@ -31,6 +31,13 @@ BUPT-ML-FinalProject
 6. 执行命令 `bash finetune.sh` 进行预训练
 
 
+## Note
+- `baseline_lr5e-5` reach `acc=0.63959`
+
+
 ## TODO
 1. 按照各类数据的比例划分训练集和测试集，而不是随机划分
-2. 添加其它 Twitter 情感分析数据进行扩充
+2. 添加其它 [Twitter Self-Driving Car](https://data.world/crowdflower/sentiment-self-driving-cars) 情感分析数据进行扩充
+3. 其他方法
+    - LSTM 预计能达到 [85%](https://link.springer.com/chapter/10.1007/978-981-15-5113-0_40)
+    - SVM 预计能达到 [90%](https://core.ac.uk/download/pdf/144738815.pdf)
