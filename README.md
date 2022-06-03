@@ -8,9 +8,11 @@ BUPT-ML-FinalProject
 ├─ README.md
 ├─ data
 │    ├─ preprocessed
-│    │    ├─ dev.csv
-│    │    ├─ test.csv
-│    │    └─ train.csv
+│    │    ├─ big
+│    │    └─ small
+│    │           ├─ dev.csv
+│    │           ├─ test.csv
+│    │           └─ train.csv
 │    └─ release
 │           ├─ sample.csv
 │           ├─ test.csv
@@ -38,6 +40,8 @@ BUPT-ML-FinalProject
 ## TODO
 1. 按照各类数据的比例划分训练集和测试集，而不是随机划分
 2. 添加其它 [Twitter Self-Driving Car](https://data.world/crowdflower/sentiment-self-driving-cars) 情感分析数据进行扩充
-3. 其他方法
+3. 进一步的数据预处理
+4. 数据可视化
+5. 其他方法
     - LSTM 预计能达到 [85%](https://link.springer.com/chapter/10.1007/978-981-15-5113-0_40)
     - SVM 预计能达到 [90%](https://core.ac.uk/download/pdf/144738815.pdf)
