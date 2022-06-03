@@ -6,19 +6,20 @@ formed by [Dir Tree Noter](http://dir.yardtea.cc/)
 ```
 BUPT-ML-FinalProject
 ├─ README.md
-├─ requirements.txt
 ├─ data
-│     ├─ finetune
-│     ├─ preprocessed
-│     │     ├─ test.csv
-│     │     └─ train.csv
-│     └─ release
-│          ├─ sample.csv
-│          ├─ test.csv
-│          └─ train.csv
+│    ├─ preprocessed
+│    │    ├─ dev.csv
+│    │    ├─ test.csv
+│    │    └─ train.csv
+│    └─ release
+│           ├─ sample.csv
+│           ├─ test.csv
+│           └─ train.csv
 ├─ data_preprocess.ipynb
-├─ finetune.py
-└─ finetune.sh
+├─ finetune_no_trainer.py
+├─ finetune_no_trainer.sh
+├─ output
+└─ requirements.txt
 ```
 
 ## Usage
@@ -28,3 +29,8 @@ BUPT-ML-FinalProject
 4. 执行命令 `pip install -r requirements.txt` 配置环境
 5. 在 `jupyter notebook` 中运行 `data_preprocess.ipynb` 进行数据预处理
 6. 执行命令 `bash finetune.sh` 进行预训练
+
+
+## TODO
+1. 按照各类数据的比例划分训练集和测试集，而不是随机划分
+2. 添加其它 Twitter 情感分析数据进行扩充
