@@ -1,4 +1,4 @@
-accelerate launch finetune_no_trainer.py \
+accelerate launch finetune_v1.py \
  --model_path "bert-base-uncased" \
  --output_dire "output/baseline_lr5e-5" \
  --train_file "data/preprocessed/train.csv" \
