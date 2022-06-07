@@ -47,7 +47,7 @@ BUPT-ML-FinalProject
 
 
 ## Note
-- `finetune_no_train.py` 代码有问题
+- `finetune_v1.py` 代码有问题
 - `random_seed=42`
 - `finetune_v2.ipynb`、`lr=1e-5`：
     - small: `acc=0.66938`（说明小数据不用看了）
