@@ -49,11 +49,18 @@ BUPT-ML-FinalProject
 ## Note
 - `finetune_no_train.py` 代码有问题
 - `random_seed=42`
-- `finetune_v2.ipynb`、`lr=1e-5`：
-    - small: `acc=0.66938`（说明小数据不用看了）
-    - big: `acc=0.93061`
-- `finetune_v2.ipynb`、`lr=2e-5`：
-    - big: `acc=0.93877`
+- `small` 数据集非常拉，可以直接不看了
+
+
+## Result
+|train-eval-test|学习率|private score|public score|
+|---------------|------|----------|--------------|
+|8:1:1|1e-5|0.93061|0.93047|
+|8:1:1|2e-5|0.93877|0.93660|
+|8:1:1|3e-5|0.94489|0.93251|
+|8:2:0|1e-5|NULL|NULL|
+|8:2:0|2e-5|NULL|NULL|
+|8:2:0|3e-5|NULL|NULL|
 
 
 ## TODO
