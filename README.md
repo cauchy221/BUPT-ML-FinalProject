@@ -9,15 +9,15 @@ BUPT-ML-FinalProject
 ├─ data
 │    ├─ preprocessed
 │    │    ├─ big
-│    │    │    ├─ dev.csv
-│    │    │    └─ train.csv
-│    │    └─ small
-│    │           ├─ dev.csv
-│    │           ├─ test.csv
-│    │           └─ train.csv
+│    │    ├─ small
+│    │    ├─ small_fix
+│    │    ├─ small_full
+│    │    ├─ sst+small
+│    │    └─ yelp+small
 │    └─ release
 │           ├─ origin.csv
 │           ├─ sample.csv
+│           ├─ sst.csv
 │           ├─ test.csv
 │           └─ train.csv
 ├─ data_preprocess.ipynb
@@ -32,9 +32,9 @@ BUPT-ML-FinalProject
 │    └─ small_lr1e-5
 │           └─ submit.csv
 └─ research
-       ├─ Twitter_Sentiment_Analysis_Using_Machine_Learning_Algorithms_A_Case_Study.pdf
-       ├─ 机器学习方法调研.md
-       └─ 机器学习方法调研.pdf
+     ├─ Twitter_Sentiment_Analysis_Using_Machine_Learning_Algorithms_A_Case_Study.pdf
+     ├─ 机器学习方法调研.md
+     └─ 机器学习方法调研.pdf
 ```
 
 ## Usage
@@ -56,26 +56,14 @@ BUPT-ML-FinalProject
 
 
 ## Result
-|model|train-eval-test|学习率|private score|public score|注意事项|
-|:---:|:-------------:|:------:|:----------:|:----------:|:-----:|
-|bert-base-uncased|8:1:1|1e-5|0.93061|0.93047|最大长度为512|
-||8:1:1|2e-5|0.93877|0.93660||
-||8:1:1|3e-5|0.94489|0.93251||
-||9:1:0|1e-5|0.90816|0.90184||
-||9:1:0|2e-5|0.92040|0.93660||
-||9:1:0|3e-5|0.93877|0.93865||
-|vinai/bertweet-base|9:1:0|1e-5|0.90204|0.89979|记得将BertModel和BertTokenizer改成Auto，且模型最大长度只有128|
-|bert-large-uncased|9:1:0|1e-5|0.91020|0.90797|最大长度为512|
+https://dd80km7uu3.feishu.cn/sheets/shtcnQVZM6cBtPYLI1AqAVEo8ue
 
 
 ## TODO
 1. [DONE] 按照各类数据的比例划分训练集和测试集，而不是随机划分
 2. [DONE] 添加其它 [Twitter Self-Driving Car](https://data.world/crowdflower/sentiment-self-driving-cars) 情感分析数据进行扩充
 3. [DONE] 进一步的数据预处理
-4. [DINE] 数据可视化
-5. 其他模型
-    - LSTM
-    - SVM
-    - bert-large-uncased
-    - bertweet-large
-    - Roberta
+4. [DONE] 数据可视化
+5. 其他方法
+    - LSTM 预计能达到 [85%](https://link.springer.com/chapter/10.1007/978-981-15-5113-0_40)
+    - SVM 预计能达到 [90%](https://core.ac.uk/download/pdf/144738815.pdf)
