@@ -6,6 +6,7 @@ formed by [Dir Tree Noter](http://dir.yardtea.cc/)
 ```
 BUPT-ML-FinalProject
 ├─ README.md
+├─ 设计思路.pdf
 ├─ data
 │    ├─ preprocessed
 │    │    ├─ big
@@ -20,7 +21,6 @@ BUPT-ML-FinalProject
 ├─ output
 └─ research
      ├─ Twitter_Sentiment_Analysis_Using_Machine_Learning_Algorithms_A_Case_Study.pdf
-     ├─ 机器学习方法调研.md
      └─ 机器学习方法调研.pdf
 ```
 
@@ -33,4 +33,5 @@ BUPT-ML-FinalProject
 6. 在 `jupyter notebook` 中运行 `finetune.ipynb` 进行训练、验证和测试
 
 ## Result
+在此飞书文档中，通过 Google Driver 保存了个别模型参数对应的 `.bin` 文件
 https://dd80km7uu3.feishu.cn/sheets/shtcnQVZM6cBtPYLI1AqAVEo8ue
