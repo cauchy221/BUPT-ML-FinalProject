@@ -43,13 +43,16 @@ BUPT-ML-FinalProject
 3. 执行命令 `kaggle competitions download -c twitter-sentiment-analysis-self-driving-cars` 下载原始数据
 4. 配置环境
 5. 在 `jupyter notebook` 中运行 `data_preprocess.ipynb` 进行数据预处理
-6. 在 `jupyter notebook` 中运行 `finetune.ipynb` 进行训练、验证和测试
+6. 在 `jupyter notebook` 中运行 `finetune_v2.ipynb` 进行训练、验证和测试
 
 
 ## Note
 - `finetune_v1.py` 代码有问题
 - `random_seed=42`
 - `small` 数据集非常拉，可以直接不看了
+- Google Colab 免费GPU和付费GPU的效果差别很大
+    - 免费版（一般为V4）最佳参数 `lr=3e-5`
+    - 付费版（一般为P100）最佳参数 `lr=9e-6`
 
 
 ## Result
