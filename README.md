@@ -9,28 +9,15 @@ BUPT-ML-FinalProject
 ├─ data
 │    ├─ preprocessed
 │    │    ├─ big
-│    │    ├─ small
-│    │    ├─ small_fix
-│    │    ├─ small_full
-│    │    ├─ sst+small
-│    │    └─ yelp+small
+│    │    └─ small
 │    └─ release
 │           ├─ origin.csv
 │           ├─ sample.csv
-│           ├─ sst.csv
 │           ├─ test.csv
 │           └─ train.csv
 ├─ data_preprocess.ipynb
-├─ finetune_v1.py
-├─ finetune_v1.sh
-├─ finetune_v2.ipynb
+├─ finetune.ipynb
 ├─ output
-│    ├─ big_lr1e-5
-│    │    └─ submit.csv
-│    ├─ big_lr2e-5
-│    │    └─ submit.csv
-│    └─ small_lr1e-5
-│           └─ submit.csv
 └─ research
      ├─ Twitter_Sentiment_Analysis_Using_Machine_Learning_Algorithms_A_Case_Study.pdf
      ├─ 机器学习方法调研.md
@@ -43,27 +30,7 @@ BUPT-ML-FinalProject
 3. 执行命令 `kaggle competitions download -c twitter-sentiment-analysis-self-driving-cars` 下载原始数据
 4. 配置环境
 5. 在 `jupyter notebook` 中运行 `data_preprocess.ipynb` 进行数据预处理
-6. 在 `jupyter notebook` 中运行 `finetune_v2.ipynb` 进行训练、验证和测试
-
-
-## Note
-- `finetune_v1.py` 代码有问题
-- `random_seed=42`
-- `small` 数据集非常拉，可以直接不看了
-- Google Colab 免费GPU和付费GPU的效果差别很大
-    - 免费版（一般为V4）最佳参数 `lr=3e-5`
-    - 付费版（一般为P100）最佳参数 `lr=9e-6`
-
+6. 在 `jupyter notebook` 中运行 `finetune.ipynb` 进行训练、验证和测试
 
 ## Result
 https://dd80km7uu3.feishu.cn/sheets/shtcnQVZM6cBtPYLI1AqAVEo8ue
-
-
-## TODO
-1. [DONE] 按照各类数据的比例划分训练集和测试集，而不是随机划分
-2. [DONE] 添加其它 [Twitter Self-Driving Car](https://data.world/crowdflower/sentiment-self-driving-cars) 情感分析数据进行扩充
-3. [DONE] 进一步的数据预处理
-4. [DONE] 数据可视化
-5. 其他方法
-    - LSTM 预计能达到 [85%](https://link.springer.com/chapter/10.1007/978-981-15-5113-0_40)
-    - SVM 预计能达到 [90%](https://core.ac.uk/download/pdf/144738815.pdf)
